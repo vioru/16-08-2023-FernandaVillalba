@@ -1,0 +1,52 @@
+  202  git init
+  203  touch main.js
+  204  touch index.html
+  205  git add .
+  206  git commit -m "commit 01 de fernandaVillalba"
+  207  git push origin master
+  208  git branch -M main
+  209  git remote add origin https://github.com/vioru/16-08-2023-FernandaVillalba.git
+  210  git push -u origin main
+  211  git branch feature
+  212  git checkout feature
+  213  mkdir Hardware
+  214  mkdir Software
+  215  mkdir SeguridadInformatica
+  216  ls
+  217  dir
+  218  cd SeguridadInformatica
+  219  touch resumen.txt
+  220  cd ..
+  221  cd Software
+  222  touch resumen.txt
+  223  cd ..
+  224  cd Hardware
+  225  touch resumen.txt
+  226  cd ..
+  227  git add .
+  228  git commit -m "commit 01 de fernandaVillalba en feature"
+  229  git push origin feature
+  230  git checkout main
+  231  mv main.js  resumenHardware.txt
+  232  mv index.html resumenSoftware.txt
+  233  echo "
+Ejemplos de Software
+1.Photoshop
+2.Firefox
+3.Autocad" > resumenHardware.txt
+  234  echo "
+Ejemplos de Software
+1.Photoshop
+2.Firefox
+3.Autocad" > resumenHardware.txt
+  235  echo "
+Ejemplos de Software
+1.Photoshop
+2.Firefox
+3.Autocad" > resumenSoftware.txt
+  236  echo "
+3 Memorias principales de computadora
+1.Ram
+2.Rom
+3.Cache" > resumenHardware.txt
+  237  history > comandos.txt

@@ -1,0 +1,5 @@
+
+3 Memorias principales de computadora
+1.Ram
+2.Rom
+3.Cache
